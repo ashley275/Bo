@@ -1,12 +1,3 @@
-// Music
-import ddf.minim.*;
-Minim minim;
-AudioPlayer song;
-AudioPlayer attack;
-AudioPlayer bottleDie;
-AudioPlayer towerDamage;
-AudioPlayer towerDie;
-
 // Image
 // -page
 PImage bg, gamestart, gameover, gameread, gameread2, gameread3, gameread4, gameread5;
@@ -114,16 +105,6 @@ void setup() {
   // Set
   size(1920,1080);
   frameRate(40);
-  
-  // Music
-  minim = new Minim(this);
-  song = minim.loadFile("song.mp3", 1024);
-  song.play();
-  song.loop();
-  attack = minim.loadFile("attack.mp3", 1024);
-  bottleDie = minim.loadFile("bottleDie.mp3", 1024);
-  towerDamage = minim.loadFile("towerDamage.mp3", 1024);
-  towerDie = minim.loadFile("towerDie.mp3", 1024);
   
   // Image
   // -pages
