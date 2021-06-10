@@ -463,7 +463,6 @@ void draw(){
       
     case GAME_OVER:
     image(gameover, 0, 0);
-    bottleDie.play();
 
     // TEXT
     String winnerText;    
