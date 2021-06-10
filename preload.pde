@@ -69,4 +69,4 @@ img/scene/redBottleBar.png,
 img/scene/redTower.png,
 img/scene/redTowerHealthBarCover.png,
 img/scene/TowerHealthBar.png";
-font="font/font.ttf"; */
+font="abc.ttf"; */
